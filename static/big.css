@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-width: 1020px;
+}
+
+#header_div {
+    text-align: center;
+    margin: 10px 10px 5px 10px;
+    border-bottom: 1px solid black;
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 0;
+}
+
+#nav_bar_div {
+    float: left;
+    width: 30%;
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#image_div {
+    margin: 10px 10px 5px 0px;
+    width: 65%;
+    float: right;
+}
+
+#description_div {
+    margin: 10px 10px 0px 0px;
+    float: right;
+    width: 65%;
+}
+
+#description {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    color: #0044cc;
+}
+
+h4 {
+    color: #0044cc;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
