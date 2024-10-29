@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" media="all and (min-width: 1020px)"  href="static/big.css">
+    <link rel="stylesheet" media="all and (max-width: 1019.99px)" href="/static/small.css">
+    <script type="text/javascript" src="static\javascript.js"></script>
+</head>
+<body>
+    <div id = "header_div">
+        <h1>Car Dealer App</h1>
+    </div>
+
+    <div id = "nav_bar_div">
+        <label for="cars">Car Type</label> <br>
+        <select name="cars" id="cars">
+            <option value="ferrari">Ferrari</option>
+            <option value="lamborghini">Lamborghini</option>
+            <option value="mustang">Mustang</option>
+        </select>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <label for="colors">Car Color</label> <br>
+        <select name="colors" id="colors">
+            <option value="red">Red</option>
+            <option value="white">White</option>
+            <option value="yellow">Yellow</option>
+        </select>
+
+        <br>
+        <br>
+        <br>
+
+        <h4>Insurance Plan:</h4>
+
+        <br>
+
+        <input type="radio" id="no" name="plan" value="No Insurance">
+        <label for="no">No Insurance</label>
+
+        <br>
+        <br>
+
+        <input type="radio" id="yes" name="plan" value="Three Year Insurance" checked>
+        <label for="yes">Three Year Insurance</label>
+
+        <br>
+
+    </div>
+
+    <div id="image_div">
+        <img id="image" style="display: block; width: 100%;" src="static/images/F_3.jpg" alt="">
+    </div>
+
+    <div id="description_div">
+        <p id="description_title" style="text-align: center;">Description</p>
+        <textarea name="description" id="description" cols="45" rows="10"></textarea>
+    </div>
+
+    <script>
+        main_driver();
+    </script>
+    
+</body>
+</html>
